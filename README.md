@@ -6,5 +6,5 @@ Extract the ImageNet pre-trained ResNet-152 model into the models folder(https:/
 Run the Feature Extraction using the 'feature_extract.py' file
 
 Start the training by running the 'training.py' file
-Note - The accuracy is very low, as I just started the training and need some more time to fine-tune the model. When I increase the epochs(1000), with a minimum batchsize (4), the training takes hours to complete, so need to test with higher epochs for a better accuracy.
+Note - The accuracy is very low, as I just started the training and need some more time to fine-tune the model. When I increase the epochs(1000000), with a minimum batchsize (10), the training seems to be faster, with an accuracy of 70%.
 The validation and testing parts are in progress.
